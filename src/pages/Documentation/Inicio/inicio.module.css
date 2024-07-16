@@ -1,0 +1,51 @@
+.dynamicFlexContainer {
+  display: flex;
+  box-sizing: border-box;
+}
+
+.mainInicioContainer {
+  margin-left: 320px;
+  box-sizing: border-box;
+}
+
+.mainInicioContainer h3 {
+  font-size: 1.875rem;
+  font-weight: bold;
+}
+
+.textArea {
+  font-size: 1.3rem;
+}
+
+.ghostDiv {
+  min-width: 230px;
+}
+
+@media (width > 1300px) {
+  .mainInicioContainer {
+    max-width: 1100px;
+  }
+}
+
+@media (width < 1100px) {
+  .mainInicioContainer {
+    margin-left: 0;
+  }
+}
+
+@media (width < 800px) {
+  .mainInicioContainer {
+    margin-left: 0;
+    max-width: 600px;
+    text-align: center;
+  }
+}
+
+@media (width < 750px) {
+  .dynamicFlexContainer {
+    flex-direction: column;
+  }
+  .ghostDiv {
+    display: none;
+  }
+}

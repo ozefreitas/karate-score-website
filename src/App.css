@@ -1,0 +1,119 @@
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  /* text-align: center; */
+}
+
+body {
+  margin: 0;
+}
+
+.mainPagesContainer {
+  position: relative;
+  margin: 100px 70px 0 70px;
+  /* width: 1200px; */
+}
+
+.imgContainer {
+  width: 500px;
+  height: 300px;
+  margin: auto;
+  position: relative;
+  z-index: 10;
+  cursor: zoom-in;
+}
+
+.imgContainer.zoom-active {
+  z-index: 15;
+}
+
+.imgFit {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+  -webkit-transition: transform 0.3s ease;
+  -moz-transition: transform 0.3s ease;
+  -ms-transition: transform 0.3s ease;
+  -o-transition: transform 0.3s ease;
+}
+
+.zoom-active .imgFit {
+  transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  cursor: zoom-out;
+  z-index: 13;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Opaque background */
+  z-index: 11;
+  display: none; /* Initially hidden */
+}
+
+.overlay.active {
+  display: block;
+  cursor: zoom-out;
+}
+
+code {
+  background-color: #545454;
+  font-weight: bold;
+  color: rgba(255, 21, 21, 0.812);
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+@media (width <= 1225px) and (width >= 1100px) {
+  .imgContainer {
+    width: 400px;
+    height: 240px;
+  }
+}
+
+@media (width <= 900px) and (width >= 750px) {
+  .imgContainer {
+    width: 400px;
+    height: 240px;
+  }
+}
+
+@media (width <= 650px) {
+  .imgContainer {
+    width: 400px;
+    height: 240px;
+  }
+}
+
+@media (width <= 775px) and (width >= 750px) {
+  .mainPagesContainer {
+    margin: 100px 40px 0 40px;
+  }
+}
+
+@media (width <= 500px) {
+  .mainPagesContainer {
+    margin: 100px 40px 0 40px;
+  }
+  .imgContainer {
+    width: 320px;
+    height: 192px;
+  }
+}
+
+.read-the-docs {
+  color: #888;
+}

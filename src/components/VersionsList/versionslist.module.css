@@ -1,0 +1,46 @@
+.versionsList {
+  max-height: fit-content;
+  transition: max-height 2s ease-in-out;
+}
+
+.versionsList ul {
+  margin: 0;
+}
+
+.versionsList h3 {
+  width: fit-content;
+  margin: 0;
+}
+
+.dropDownEffect {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.3s ease-in-out;
+}
+
+.show {
+  max-height: 200px;
+}
+
+.toggleDiv {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: fit-content;
+  cursor: pointer;
+}
+
+.toggleDiv:first-of-type {
+  margin-top: 20px;
+}
+
+.arrowDown {
+}
+
+.arrowUp {
+}
+
+.arrowState {
+  display: none;
+}

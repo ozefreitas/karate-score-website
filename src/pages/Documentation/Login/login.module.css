@@ -1,0 +1,53 @@
+.dynamicFlexContainer {
+  display: flex;
+  box-sizing: border-box;
+}
+
+.mainLoginContainer {
+  margin-left: 320px;
+  box-sizing: border-box;
+  max-width: calc(100vw - 230px - 340px - 140px)
+}
+
+.mainLoginContainer h3 {
+  font-size: 1.875rem;
+  font-weight: bold;
+}
+
+.textArea {
+  font-size: 1.3rem;
+}
+
+.ghostDiv {
+  min-width: 230px;
+}
+
+@media (width > 1300px) {
+  .mainLoginContainer {
+    max-width: 1100px;
+  }
+}
+
+@media (width < 1100px) {
+  .mainLoginContainer {
+    margin-left: 0;
+    max-width: 900px;
+  }
+}
+
+@media (width < 800px) {
+  .mainLoginContainer {
+    margin-left: 0;
+    max-width: 600px;
+    text-align: center;
+  }
+}
+
+@media (width < 750px) {
+  .dynamicFlexContainer {
+    flex-direction: column;
+  }
+  .ghostDiv {
+    display: none;
+  }
+}

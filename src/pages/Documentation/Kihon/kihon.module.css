@@ -1,0 +1,42 @@
+.dynamicFlexContainer {
+  display: flex;
+  box-sizing: border-box;
+}
+
+.mainKihonContainer {
+  margin-left: 340px;
+  box-sizing: border-box;
+}
+
+.ghostDiv {
+  min-width: 230px;
+}
+
+@media (width > 1300px) {
+  .mainKihonContainer {
+    max-width: 1100px;
+  }
+}
+
+@media (width < 1100px) {
+  .mainKihonContainer {
+    margin-left: 0;
+  }
+}
+
+@media (width < 800px) {
+  .mainKihonContainer {
+    margin-left: 0;
+    max-width: 600px;
+    text-align: center;
+  }
+}
+
+@media (width < 750px) {
+  .dynamicFlexContainer {
+    flex-direction: column;
+  }
+  .ghostDiv {
+    display: none;
+  }
+}

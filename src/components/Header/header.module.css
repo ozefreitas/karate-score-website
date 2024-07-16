@@ -1,0 +1,107 @@
+.headerContainer {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: var(--dark-theme-background-color);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 0 0.1em 20px 1px var(--shadows-color);
+  z-index: 99;
+}
+
+.logo {
+  height: 3rem;
+  padding-left: 1rem;
+}
+
+.versionDiv {
+  gap: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.appName {
+  font-size: 1.3rem;
+}
+
+.versionSpan {
+  font-weight: unset;
+  font-size: 1.1rem;
+}
+
+.versionSpan:hover {
+  text-decoration: underline;
+}
+
+.linksDiv {
+  display: flex;
+  margin-right: 20px;
+  gap: 1rem;
+  overflow-x: auto;
+}
+
+@media (width >= 1090px) and (width < 1370px) {
+  .appName {
+    display: none;
+  }
+}
+
+@media (width <= 1090px) {
+  .appNameAndAuthor {
+    display: none;
+  }
+}
+
+.page {
+  padding: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+  cursor: pointer;
+}
+
+.page:hover {
+  background-color: var(--page-divs-hover);
+  border-radius: 20px;
+}
+
+.page:hover a {
+  color: var(--header-links-hover);
+}
+
+.selectedPage {
+  background-color: var(--selected-page);
+  border-radius: 20px;
+}
+
+.selectedPage:hover {
+  background-color: rgb(0, 94, 94);
+  border-radius: 20px;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 1px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

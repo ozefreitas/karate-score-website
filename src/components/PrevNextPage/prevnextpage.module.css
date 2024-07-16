@@ -1,0 +1,73 @@
+.mainContainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 30px 30px 30px;
+}
+
+.smallContainer {
+  height: 70px;
+  width: 180px;
+  min-width: 120px;
+  border: 1px solid var(--main-text-color);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
+  -webkit-transition: transform 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
+  -moz-transition: transform 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
+  -ms-transition: transform 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
+  -o-transition: transform 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
+}
+
+.smallContainer > div a {
+  font-size: large;
+}
+
+.smallContainer > div a:hover {
+  color: var(--main-text-color);
+}
+
+.arrowIcons {
+  width: 1.2em;
+  height: 1.2em;
+}
+
+.smallContainer:hover {
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.63);
+  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
+}
+
+@media (width < 1175px) and (width >= 1100px) {
+  .mainContainer {
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+}
+
+@media (width <= 825px) and (width >= 750px) {
+  .mainContainer {
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+}
+
+@media (width <= 595px) {
+  .mainContainer {
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+}
