@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import PageIndex from "../../components/PageIndex/PageIndex";
 import styles from "./documentation.module.css";
 import SubPages from "../../components/SubPages/SubPages";
@@ -7,6 +7,7 @@ import PrevNextPage from "../../components/PrevNextPage/PrevNextPage";
 
 export default function Documentation() {
   const [headerList, setHeaderList] = useState<HTMLHeadingElement[]>([]);
+  const navigate = useNavigate();
 
   useEffect(() => {
     const headersColection = document
@@ -84,79 +85,100 @@ export default function Documentation() {
         </div>
         <h3>Indice</h3>
         <div className={styles.subPagesList}>
-          <ul>
-            <li>
-              <h3>
-                <Link to="/kataelim">Kata Eliminatórias</Link>
-              </h3>
-              <div className={styles.textArea}>
-                <p>Interface para eliminação 1 vs 1 com sistema de bandeiras</p>
-              </div>
-            </li>
-            <li>
-              <h3>
-                <Link to="/teamkata">Kata Equipa</Link>
-              </h3>
-              <div className={styles.textArea}>
-                <p>
-                  Interface para equipas em modo de final com sistema de
-                  pontuação
-                </p>
-              </div>
-            </li>
-            <li>
-              <h3>
-                <Link to="/kihon">Kihon Eliminatórias</Link>
-              </h3>
-              <div className={styles.textArea}>
-                <p>Interface para eliminação 2 vs 2 com sistema de bandeiras</p>
-              </div>
-            </li>
-            <li>
-              <h3>
-                <Link to="/katafinals">Kata Finais</Link>
-              </h3>
-              <div className={styles.textArea}>
-                <p>
-                  Interface para individual em modo de final com sistema de
-                  pontuação
-                </p>
-              </div>
-            </li>
-            <li>
-              <h3>
-                <Link to="/teamkata">Kihon Finais</Link>
-              </h3>
-              <div className={styles.textArea}>
-                <p>
-                  Interface para equipas em modo de final com sistema de
-                  pontuação
-                </p>
-              </div>
-            </li>
-            <li>
-              <h3>
-                <Link to="/kumite">Kumite Individual</Link>
-              </h3>
-              <div className={styles.textArea}>
-                <p>
-                  Interface para eliminação individual 1 vs 1 com sistema de
-                  pontos e faltas, temporizador incluído
-                </p>
-              </div>
-            </li>
-            <li>
-              <h3>
-                <Link to="/teamkumite">Kumite Equipa</Link>
-              </h3>
-              <div className={styles.textArea}>
-                <p>
-                  Interface para eliminação em equipa com sistema de pontos e
-                  faltas, temporizador incluído
-                </p>
-              </div>
-            </li>
-          </ul>
+          <div
+            className={styles.displaySquare}
+            onClick={() => {
+              navigate("/kataelim");
+            }}
+          >
+            <h3>Kata Eliminatórias</h3>
+            <div className={styles.textArea}>
+              <p>Interface para eliminação 1 vs 1 com sistema de bandeiras</p>
+            </div>
+          </div>
+          <div
+            className={styles.displaySquare}
+            onClick={() => {
+              navigate("/teamkata");
+            }}
+          >
+            <h3>Kata Equipa</h3>
+            <div className={styles.textArea}>
+              <p>
+                Interface para equipas em modo de final com sistema de pontuação
+              </p>
+            </div>
+          </div>
+          <div
+            className={styles.displaySquare}
+            onClick={() => {
+              navigate("/kihon");
+            }}
+          >
+            <h3>Kihon Eliminatórias</h3>
+            <div className={styles.textArea}>
+              <p>Interface para eliminação 2 vs 2 com sistema de bandeiras</p>
+            </div>
+          </div>
+          <div
+            className={styles.displaySquare}
+            onClick={() => {
+              navigate("/katafinals");
+            }}
+          >
+            <h3>Kata Finais</h3>
+            <div className={styles.textArea}>
+              <p>
+                Interface para individual em modo de final com sistema de
+                pontuação
+              </p>
+            </div>
+          </div>
+          <div
+            className={styles.displaySquare}
+            onClick={() => {
+              navigate("/teamkata");
+            }}
+          >
+            <h3>Kihon Finais</h3>
+            <div className={styles.textArea}>
+              <p>
+                Interface para equipas em modo de final com sistema de pontuação
+              </p>
+            </div>
+          </div>
+          <div
+            className={styles.displaySquare}
+            onClick={() => {
+              navigate("/kumite");
+            }}
+          >
+            <h3>Kumite Individual</h3>
+            <div className={styles.textArea}>
+              <p>
+                Interface para eliminação individual 1 vs 1 com sistema de
+                pontos e faltas, temporizador incluído
+              </p>
+            </div>
+          </div>
+          <div
+            className={styles.displaySquare}
+            onClick={() => {
+              navigate("/teamkumite");
+            }}
+          >
+            <h3>Kumite Equipa</h3>
+            <div className={styles.textArea}>
+              <p>
+                Interface para eliminação em equipa com sistema de pontos e
+                faltas, temporizador incluído
+              </p>
+            </div>
+          </div>
+        </div>
+        <h3>Cabeçalho</h3>
+        <div className={styles.textArea}>
+          <p></p>
         </div>
         <PrevNextPage
           prevPage={{ Sobre: "/about" }}

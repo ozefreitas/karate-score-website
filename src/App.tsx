@@ -28,6 +28,14 @@ interface Version {
   tree: string;
 }
 
+interface Blogs {
+  post_id: string;
+  post_name: string;
+  post_content: string;
+  post_date: string;
+  post_author: string;
+}
+
 function App() {
   const [currentVersion, setCurrentVersion] = useState("0.0.0");
   const [newestVersion, setNewestVersion] = useState("0.0.0");
@@ -42,6 +50,7 @@ function App() {
     blog: false,
     contacts: false,
   });
+  const [blogPosts, setBlogPosts] = useState<Blogs[]>([]);
   const location = useLocation();
 
   useEffect(() => {
@@ -118,6 +127,13 @@ function App() {
       .then((data) => setVersions(data.reverse()))
       .catch((error) => console.error("Error fetching versions:", error));
   }, [setVersions]);
+
+  useEffect(() => {
+    fetch("../../../blog_posts.json")
+      .then((response) => response.json())
+      .then((data) => setBlogPosts(data.reverse()))
+      .catch((error) => console.error("Error fetching blog posts:", error));
+  }, [setBlogPosts]);
 
   useEffect(() => {
     versions.map((version) => {
@@ -248,7 +264,7 @@ function App() {
             path="/versions"
             element={<Versions versions={versions}></Versions>}
           ></Route>
-          <Route path="/blog" element={<Blog></Blog>}></Route>
+          <Route path="/blog" element={<Blog blogs={blogPosts}></Blog>}></Route>
           <Route path="/contacts" element={<Contacts></Contacts>}></Route>
           <Route path="/login" element={<Login></Login>}></Route>
           <Route path="/inicio" element={<Inicio></Inicio>}></Route>

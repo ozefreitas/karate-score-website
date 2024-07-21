@@ -1,0 +1,142 @@
+[
+  {
+    "version": "0.0",
+    "changelog": "https://github.com/ozefreitas/KScoreApp/blob/main/CHANGELOG.md#00-march-2024-not-publicd",
+    "tree": "https://github.com/ozefreitas/KScoreApp/tree/962fc524c3605a9bd2c3f0e0c43cedcbffbd29a7"
+  },
+  {
+    "version": "0.0.1",
+    "changelog": "https://github.com/ozefreitas/KScoreApp/blob/main/CHANGELOG.md#001-march-2024-not-public",
+    "tree": "https://github.com/ozefreitas/KScoreApp/tree/df3def75d4f6e131c23497c9b5a692ae3b8d525c"
+  },
+  {
+    "version": "0.0.2",
+    "changelog": "https://github.com/ozefreitas/KScoreApp/blob/main/CHANGELOG.md#002-march-2024-not-public",
+    "tree": "https://github.com/ozefreitas/KScoreApp/tree/c3385ab489502d75bac0524112ac6bf7da405304"
+  },
+  {
+    "version": "0.0.3",
+    "changelog": "https://github.com/ozefreitas/KScoreApp/blob/main/CHANGELOG.md#004-march-2024-not-public",
+    "tree": "https://github.com/ozefreitas/KScoreApp/tree/5ad45b90e9028166f992e89a73136007b4fb32df"
+  },
+  {
+    "version": "0.1.0",
+    "changelog": "https://github.com/ozefreitas/KScoreApp/blob/main/CHANGELOG.md#010-april-2024",
+    "tree": "https://github.com/ozefreitas/KScoreApp/tree/9b880580b45985470c862d46489334550db13041"
+  },
+  {
+    "version": "0.2.0",
+    "changelog": "https://github.com/ozefreitas/KScoreApp/blob/main/CHANGELOG.md#020-april-2024",
+    "tree": "https://github.com/ozefreitas/KScoreApp/tree/0948df3726fff6d5b8078b34675da375718fc197"
+  },
+  {
+    "version": "0.2.1",
+    "changelog": "https://github.com/ozefreitas/KScoreApp/blob/main/CHANGELOG.md#021-april-2024",
+    "tree": "https://github.com/ozefreitas/KScoreApp/tree/c5a6a99f1eff112e0db434b7aad44eca0131c746"
+  },
+  {
+    "version": "0.3.2",
+    "changelog": "https://github.com/ozefreitas/KScoreApp/blob/main/CHANGELOG.md#032-april-2024",
+    "tree": "https://github.com/ozefreitas/KScoreApp/tree/a0341aeb6aee8202c7ddbfe342189c6d610be160"
+  },
+  {
+    "version": "0.3.3",
+    "changelog": "https://github.com/ozefreitas/KScoreApp/blob/main/CHANGELOG.md#033-april-2024",
+    "tree": "https://github.com/ozefreitas/KScoreApp/tree/70b2447c0b1bcc2b3ffbb75f1bf74374466d29ad"
+  },
+  {
+    "version": "0.5.1",
+    "changelog": "https://github.com/ozefreitas/KScoreApp/blob/main/CHANGELOG.md#051-may-2024",
+    "tree": "https://github.com/ozefreitas/KScoreApp/tree/8e66a3a4343cbbb4a3ad41d1be334e3e099567c4"
+  },
+  {
+    "version": "0.5.2",
+    "changelog": "https://github.com/ozefreitas/KScoreApp/blob/main/CHANGELOG.md#052-may-2024",
+    "tree": "https://github.com/ozefreitas/KScoreApp/tree/3584032f0a930f1040c9e266f0cdfa9c1db0fbe9"
+  },
+  {
+    "version": "0.5.3",
+    "changelog": "https://github.com/ozefreitas/KScoreApp/blob/main/CHANGELOG.md#053-may-2024",
+    "tree": "https://github.com/ozefreitas/KScoreApp/tree/7ce03928587aa4a815c36c86f9b08017bb39ee77"
+  },
+  {
+    "version": "0.5.4",
+    "changelog": "https://github.com/ozefreitas/KScoreApp/blob/main/CHANGELOG.md#054-may-2024",
+    "tree": "https://github.com/ozefreitas/KScoreApp/tree/2b8a7dacfcc83b13c37a8f6f37bb448e9aee80a3"
+  },
+  {
+    "version": "0.6.0",
+    "changelog": "https://github.com/ozefreitas/KScoreApp/blob/main/CHANGELOG.md#060-may-2024",
+    "tree": "https://github.com/ozefreitas/KScoreApp/tree/0103d999402b58b1ed8fb8585e1802526eb06b24"
+  },
+  {
+    "version": "0.6.1",
+    "changelog": "https://github.com/ozefreitas/KScoreApp/blob/main/CHANGELOG.md#061-may-2024",
+    "tree": "https://github.com/ozefreitas/KScoreApp/tree/102facceae66b5c089a253744f707400cda646d4"
+  },
+  {
+    "version": "0.6.2",
+    "changelog": "https://github.com/ozefreitas/KScoreApp/blob/main/CHANGELOG.md#062-may-2024",
+    "tree": "https://github.com/ozefreitas/KScoreApp/tree/e3b334ee994e7b4d81ebe13f28d5962ba08a6e3c"
+  },
+  {
+    "version": "0.6.3",
+    "changelog": "https://github.com/ozefreitas/KScoreApp/blob/main/CHANGELOG.md#063-june-2024",
+    "tree": "https://github.com/ozefreitas/KScoreApp/tree/1bca7b34ac1972f43f7df9416b341db74a10fb40"
+  },
+  {
+    "version": "0.6.4",
+    "changelog": "https://github.com/ozefreitas/KScoreApp/blob/main/CHANGELOG.md#064-june-2024",
+    "tree": "https://github.com/ozefreitas/KScoreApp/tree/29a3c2fde58ded5feeaa88d103e76e0f886cab13"
+  },
+  {
+    "version": "0.7.0",
+    "changelog": "https://github.com/ozefreitas/KScoreApp/blob/main/CHANGELOG.md#070-june-2024",
+    "tree": "https://github.com/ozefreitas/KScoreApp/tree/62777ee54809cb5f7e019e28b870c9a02846b7ea"
+  },
+  {
+    "version": "0.7.1",
+    "changelog": "https://github.com/ozefreitas/KScoreApp/blob/main/CHANGELOG.md#071-june-2024",
+    "tree": "https://github.com/ozefreitas/KScoreApp/tree/414f6e830e32a51a1ea95dd4d8b8e2ca1a099b85"
+  },
+  {
+    "version": "0.7.2",
+    "changelog": "https://github.com/ozefreitas/KScoreApp/blob/main/CHANGELOG.md#072-june-2024",
+    "tree": ""
+  },
+  {
+    "version": "0.7.3",
+    "changelog": "https://github.com/ozefreitas/KScoreApp/blob/main/CHANGELOG.md#073-june-2024",
+    "tree": "https://github.com/ozefreitas/KScoreApp/tree/2da682c62f7a58eb9038f0610483d84cd57a5311"
+  },
+  {
+    "version": "0.7.4",
+    "changelog": "https://github.com/ozefreitas/KScoreApp/blob/main/CHANGELOG.md#074-june-2024",
+    "tree": "https://github.com/ozefreitas/KScoreApp/tree/31f9e322c6c10837f31911cc0b0380fb015e9ac5"
+  },
+  {
+    "version": "0.8.0",
+    "changelog": "https://github.com/ozefreitas/KScoreApp/blob/main/CHANGELOG.md#080-june-2024-not-ready",
+    "tree": "https://github.com/ozefreitas/KScoreApp/tree/d675c17a58eef7539dd71918052b5823b74ff331"
+  },
+  {
+    "version": "0.8.3",
+    "changelog": "https://github.com/ozefreitas/KScoreApp/blob/main/CHANGELOG.md#083-june-2024-not-ready",
+    "tree": "https://github.com/ozefreitas/KScoreApp/tree/194641d86b5312cdf3bb69419dd39979d2e0cb79"
+  },
+  {
+    "version": "0.8.4",
+    "changelog": "https://github.com/ozefreitas/KScoreApp/blob/main/CHANGELOG.md#084-june-2024-not-ready",
+    "tree": "https://github.com/ozefreitas/KScoreApp/tree/892f609f0af36b47184facf876b6529d9a2dcce4"
+  },
+  {
+    "version": "0.8.5 - LATEST",
+    "changelog": "https://github.com/ozefreitas/KScoreApp/blob/main/CHANGELOG.md#085-july-2024-latest",
+    "tree": ""
+  },
+  {
+    "version": "1.0.0 - UPCOMING",
+    "changelog": "https://github.com/ozefreitas/KScoreApp/blob/main/CHANGELOG.md#100-july-2024-upcoming",
+    "tree": ""
+  }
+]
