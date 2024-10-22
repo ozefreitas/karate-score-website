@@ -158,6 +158,69 @@ export default function Documentation() {
             </li>
           </ul>
         </div>
+        <h3>Cabeçalho</h3>
+        <div className={styles.textArea}>
+          <p>
+            Todas as páginas têm na secção superior um espaço para inserção do
+            número do tatami onde está localizada a máquina, e outro para
+            selecionar a categoria da prova a ser realizada.
+          </p>
+          <div className="imgContainer">
+            <img src="" className="imgFit" alt="Cabeçalho default" />
+          </div>
+          <div className="overlay"></div>
+          <p>
+            O número do tatami está limitado a número entre <strong>1</strong> e{" "}
+            <strong>3</strong>, e pode ser alterado tanto com input direto do
+            número, como com a <code>ScrollWheel</code> ou com a{" "}
+            <code>seta para cima</code> ou <code>seta para baixo</code>. <br />
+            O número do tatami irá ser conservado entre mudanças de página, por
+            isso apenas é necessário introduzir este uma única vez. No entanto,
+            a categoria reinicia de cada vez que se troca de página. <br />
+            No caso das categorias, a lista de seleção que aparece em cada
+            página varia consoante a própria página. Isto é, em cada página só
+            irão aparecer as categorias possíveis para o tipo de prova em
+            questão nessa mesma página.
+          </p>
+          <h4>Exemplo</h4>
+          <div className="imgContainer">
+            <img
+              src=""
+              className="imgFit"
+              alt="Sample categorias Kata Eliminatorias"
+            />
+          </div>
+          <div className="overlay"></div>
+        </div>
+        <div className={styles.textArea}>
+          <p>
+            Neste exemplo estamos na página de{" "}
+            <Link to="/kataelim">
+              <i>Kata</i> Eliminatórias
+            </Link>
+            , que servirá para provas de <i>Kata</i> Individual com sistema de
+            bandeiras, ou seja, 2 atletas em simultâneo lutam para não ser
+            eliminados, apenas irá ser possível ao utilizador selecionar um
+            escalão dessa prova, ou seja, nunca irão aparecer pesos nem escalões
+            mistos
+          </p>
+          <div className="imgContainer">
+            <img
+              src=""
+              className="imgFit"
+              alt="Sample categorias Kumite Individual"
+            />
+          </div>
+          <div className="overlay"></div>
+          <p>
+            Por outro lado, no caso de uma prova de{" "}
+            <Link to={"/kumite"}>
+              <i>Kumite</i> Individual
+            </Link>
+            , esta página irá agora aprensentar escalões com pesos, que lá está,
+            fazem parte deste tipo de provas.
+          </p>
+        </div>
         <PrevNextPage
           prevPage={{ Sobre: "/about" }}
           nextPage={{ Login: "/login" }}

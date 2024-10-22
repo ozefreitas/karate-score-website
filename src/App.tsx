@@ -120,7 +120,7 @@ function App() {
   }, [setVersions]);
 
   useEffect(() => {
-    versions.map((version) => {
+    versions.forEach((version) => {
       if (version.version.includes("UPCOMING")) {
         setNewestVersion(version.version.split("-")[0]);
       }

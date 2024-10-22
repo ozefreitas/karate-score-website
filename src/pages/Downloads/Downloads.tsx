@@ -14,7 +14,7 @@ export default function Downloads({
   handleDownload,
   currentVersion,
   newestVersion,
-}: DownloadsProps) {
+}: Readonly<DownloadsProps>) {
   return (
     <div className={styles.mainDownloadsContainer}>
       <div className={styles.mainInfoContainer}>

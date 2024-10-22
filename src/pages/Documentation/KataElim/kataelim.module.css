@@ -8,6 +8,15 @@
   box-sizing: border-box;
 }
 
+.mainKataElimContainer h3 {
+  font-size: 1.875rem;
+  font-weight: bold;
+}
+
+.textArea {
+  font-size: 1.3rem;
+}
+
 .ghostDiv {
   min-width: 230px;
 }

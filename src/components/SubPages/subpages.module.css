@@ -178,6 +178,11 @@
   -o-transition: max-height 0.3s ease-in-out;
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 1px;
+}
+
 @media (width <= 800px) and (width >= 750px) {
   .mainContainer {
     right: 40px;

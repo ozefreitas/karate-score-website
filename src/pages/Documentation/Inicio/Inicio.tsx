@@ -44,8 +44,8 @@ export default function Inicio() {
         <h3>Início</h3>
         <div className={styles.textArea}>
           <p>
-            A página de <strong>Início</strong> é apenas uma folha com os
-            <i> logos</i> da aplicação e da SKI-Portugal.
+            A página de <strong>Início</strong> é apenas uma folha com os{" "}
+            <i>logos</i> da aplicação e da SKI-Portugal.
           </p>
           <div className="imgContainer">
             <img src="" className="imgFit" alt="Página Início" />

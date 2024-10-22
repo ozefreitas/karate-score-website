@@ -4,8 +4,17 @@
 }
 
 .mainKataFinalsContainer {
-  margin-left: 340px;
+  margin-left: 320px;
   box-sizing: border-box;
+}
+
+.mainKataFinalsContainer h3 {
+  font-size: 1.875rem;
+  font-weight: bold;
+}
+
+.textArea {
+  font-size: 1.3rem;
 }
 
 .ghostDiv {
