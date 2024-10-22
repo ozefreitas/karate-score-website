@@ -129,7 +129,7 @@ export default function Versions({ versions }: Versions) {
               <option value="news" defaultChecked>
                 Novidades
               </option>
-              <option value="code">Codigo</option>
+              <option value="code">Código</option>
             </select>
           </div>
         </div>

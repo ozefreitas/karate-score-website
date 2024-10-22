@@ -1,5 +1,6 @@
 .versionsList {
   max-height: fit-content;
+  padding-left: 20px;
   transition: max-height 2s ease-in-out;
 }
 

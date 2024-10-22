@@ -88,7 +88,7 @@ export default function VersionsList({
                       <ul key={versionNumber}>
                         <li>
                           <Link
-                            to={versionObj.versionNumber}
+                            to={versionObj[versionNumber]}
                             target="_blank"
                             rel="noopener noreferrer"
                           >

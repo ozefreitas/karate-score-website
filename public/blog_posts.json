@@ -1,0 +1,37 @@
+[
+  {
+    "post_id": 1,
+    "post_name": "Início do desenvolvimento da Karate Score App",
+    "post_content": "Depois do contacto feito por parte da diretora do departamento de competição da SKI-Portugal - Sonia Marinho - foi dado início ao desenvolvimento da primeira aplicação",
+    "post_date": "04/03/2024",
+    "post_author": "Zé Freitas"
+  },
+  {
+    "post_id": 2,
+    "post_name": "Lançamento da primeira versão pronta a utilizar",
+    "post_content": "Apesar de ainda se encontrar num estágio embrionário, uma versão extremamente simples saiu ao público como amostra daquilo que seria possível concretizar",
+    "post_date": "15/04/2024",
+    "post_author": "Zé Freitas"
+  },
+  {
+    "post_id": 3,
+    "post_name": "Lançamento da versão 0.7.2",
+    "post_content": "Um dia antes de uma prova oficial da SKIP, foi adiantada e lançada a versão preparada para ser testada pela primeira vez",
+    "post_date": "07/06/2024",
+    "post_author": "Zé Freitas"
+  },
+  {
+    "post_id": 4,
+    "post_name": "Karate Score App posta a prova",
+    "post_content": "Karate Score App estreia-se no terreno pelo primeira vez, 4 meses após o ínicio do seu desenvolvimento",
+    "post_date": "08/06/2024",
+    "post_author": "Zé Freitas"
+  },
+  {
+    "post_id": 5,
+    "post_name": "Feedback muito positivo após apresentação da Karate Score App",
+    "post_content": "Depois do primeiro teste, não faltaram elogios à prestação da mais nova aplicação ao serviço da SKI-Portugal",
+    "post_date": "08/08/2024",
+    "post_author": "Zé Freitas"
+  }
+]
